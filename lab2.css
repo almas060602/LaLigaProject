@@ -1,13 +1,13 @@
 
 body {
-    position: relative;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+/*    position: relative;
+*/    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     font-size: 16px;
     line-height: 1.4;
     color: #000;
     min-width: 320px;
-    overflow-x: hidden;
-    height: auto;
+/*    overflow-x: hidden;
+*/    height: auto;
 }
 
 .margleft {
@@ -17,15 +17,16 @@ body {
 
 
 .navbar {
-    width: 100%;
-    height: 70px;
+    width: 1503px;
     box-shadow: 0 4px 10px #000;
+
 }
 .navbar .container {
     height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .navbar-menu {
@@ -47,7 +48,7 @@ body {
     color: white;
     opacity: 0.6;
     text-decoration: none;
-    padding: 35px;
+    margin-right: 40px;
     transition: all .3s ease-in-out;
 }
 
@@ -92,7 +93,6 @@ body {
     line-height: 1.4;
     min-width: 320px;
     overflow-x: hidden;
-    height: 700vh;
 }
 
 
@@ -109,9 +109,9 @@ body {
 
 
 .brd {
-    width: 100%;   height: 450px; 
+    width: 1503px;   
+    height: 450px; 
     background-color: #24242e;  
-    margin: auto;
     box-shadow: 0 4px 10px #000;
     opacity: .9;
     margin-top: 10px;
@@ -119,11 +119,33 @@ body {
 
 
 .brd1-1 {
-    width: 250px; height: 150px;
+    width: 250px; 
+    height: 150px;
     background-color: rgb(37, 65, 80);
     float: left;
     margin-left: calc(2.8%);
     color: white; 
+}
+
+.tabl {
+    text-align: center;
+    background-color: rgb(16, 32, 42);
+    width: 240px;
+    height: 95px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tabl p{
+    height: 20px;
+}
+
+.tabl1 {
+    background-color: rgb(11, 18, 22);
+    width: 230px;
+    margin-left: 5px;
+    margin-right: 5px0;
+    height: 45px;
 }
 
 .leftstr {
@@ -145,6 +167,7 @@ body {
     margin-right: 5px;
     margin-top: -5px;
     font-size: 15px;
+    margin-bottom: 0px;
 }
 
 
@@ -169,11 +192,12 @@ body {
 
 .bord {
     background-color: rgb(210, 180, 140);
-    width: auto;
+    width: 1443px;
     height: 480px;
     margin-top: 20px;
     box-shadow: 0 4px 10px #000;
     padding: 30px;
+    opacity: .9;
 }
 
 .bord1 {
@@ -183,9 +207,630 @@ body {
     width: 700px;
 }
 
+
 .leftfoto {
     float:left;
-    color: white;
+    color: black;
     padding: 30px;
 
 }
+
+
+
+
+
+
+
+
+
+.without {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.brd5 {
+    width: 770px;   height: 175px; 
+    background-color: #ffffff;  
+    outline: 2px solid #ffffff; 
+    border: 3px solid #ffffff; 
+    border-radius: 0px; 
+    margin: auto;
+
+
+}
+
+.brd6 {
+    width: 1200px;   height: 500px; 
+    background-color: rgb(210, 180, 140);  
+    margin: auto;
+    margin-top: 50px;
+}
+
+.vertab {
+    padding-top: 13px;
+}
+
+.jir {
+    font-family: "Cooper Black", serif;
+}
+
+.calibri {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+
+
+.rightimg  {
+    float: right;  
+    margin-top: -80px;
+}
+
+.text {
+    text-align:  center;
+    vertical-align: middle;
+}
+
+.contBRD {
+    width: 800px;  
+    height: 500px; 
+    background-color: rgb(213, 215, 215);
+    background: url(https://www.iphones.ru/wp-content/uploads/2015/11/index.jpg);
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 330px;
+    opacity: .9;
+    box-shadow: 0 4px 10px #000;
+    color: white;
+}
+
+
+.contBRD h1 {
+    text-align: center;
+    color: white    ;
+    font-weight: 300;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.contBRD p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.tab2 {
+    margin-left: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.tab3 {
+    margin-right: 10px;
+}
+
+
+
+
+.brdAds {
+    width: 1445px;
+    height: 450px;
+    background-color: #0c1b23;
+    opacity: .8;
+    margin-top: 70px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 4px 10px #000;
+}
+
+
+
+.brdAds1-1 {
+    width: 49%;
+    height: 150px;
+    color: white;
+    float: left;
+    margin-top: 40px;
+}
+
+.brdAds1-2 {
+    width: 49%;
+    height: 150px;
+    color: white;
+    float: right;
+    margin-top: 40px;
+}
+
+.arial {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.floatleft {
+    float: left;
+}
+
+
+
+.brdCal {
+    width: 1445px;
+    height: 973px;
+    background-color: white;
+    opacity: .9;
+    padding: 30px;
+    color: black;
+    font-family: core_sans_regular, Arial, Helvetica, sans-serif;
+}
+
+.ml {
+    margin-left: 30px;
+    float: left;
+    width: 960px;
+}
+
+
+
+
+.class1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.class1 img {
+    opacity: 1;
+}
+
+.class1:hover img {
+    opacity: .8;
+    transition: all .5s ease;
+}
+
+.class2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.class2 img {
+    opacity: 1;
+}
+
+.class2:hover img {
+    opacity: .8;
+    transition: all .5s ease;
+}
+
+.class3 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.class3 img {
+    opacity: 1;
+}
+
+.class3:hover img {
+    opacity: .8;
+    transition: all .5s ease;
+}
+
+.mr {
+    float: right;
+    height: 120px;
+    width: 350px;
+    text-align: center;
+}
+
+.cal {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.cal img {
+    transition: transform .5s;
+}
+
+.cal:hover img  {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+
+.socmed {
+    width: 1190px;
+    height: 350px;
+    margin-left: 125px;
+    padding: 30px;
+}
+
+.socmed1 {
+    float: left;
+}
+
+.socmed1 img {
+    opacity: 1;
+}
+
+.socmed1:hover img {
+    opacity: .7;
+    transition: all .5s ease;
+}
+
+.socmed2 {
+    text-align: center;
+    width: 570px;
+    height: 180px;
+    float: left;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.socmed3 {
+    float: right;
+}
+
+.socmed3 img {
+    opacity: 1;
+}
+
+.socmed3:hover img {
+    opacity: .7;
+    transition: all .5s ease;
+}
+
+.risunok {
+    text-align: center;
+}
+
+.last {
+    background-color: rgb(213, 215, 215);
+    width: 1505px;
+    height: 400px;
+    box-shadow: 0 4px 10px #000;
+}
+
+.cent {
+    text-align: center;
+}
+
+iframe {
+    width: 700px;
+    height: 450px;
+}
+
+
+/*
+
+-----------Viedos
+
+*/
+
+
+.heade {
+    width: 1503px;
+    height: 150px;
+    background-color: rgb(213, 215, 215);
+    box-shadow: 0 4px 10px #000;
+    margin-top: 30px;
+    opacity: .8;
+}
+
+.heade1 {
+    width: 1505px;
+    height: 200px;
+    background-color: rgb(227, 45, 56);
+    box-shadow: 0 4px 10px #000;
+    margin-top: 30px;
+    opacity: .8;
+    color: white;
+}
+
+.bbod {
+    width: 1503px;
+    height: 850px;
+    box-shadow: 0 4px 10px #000;
+    background-color: rgb(16, 32, 42);
+    padding-top: 50px;
+}
+
+.bbod iframe {
+    width: 300px;
+    height: 170px;
+}
+
+.bbod .bord1 {
+    width: 300px;
+}
+
+.bbod1 {
+    float: left;
+    margin-left: 60px;
+    width: 300px;
+    height: 192px;
+}
+
+
+.bbod2 {
+    width: 300px;
+
+}
+
+.bbod .tabl {
+    width: 300px;
+    height: 50px;
+    margin-top: 165px;
+    background-color: rgb(37, 65, 80);
+    margin-left: 0px;
+}
+
+.tabl2 {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+.bdy {
+    width: 1503px;
+    height: 1200px;
+    box-shadow: 0 10px 10px #000;
+    background-color: white;
+    padding-top: 50px;
+    opacity: .9;
+}
+
+.bdy span{
+    color: black;
+    opacity: 1;
+}
+
+.bdy span:hover{
+    transition: all .1s ease-in-out;
+    opacity: .7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.news {
+    width: 300px;
+    height: 550px;
+}
+.photo {
+    overflow: hidden;
+    opacity: 1;
+}
+
+.texttop {
+    text-align: center;
+    color: white;
+    background-color: rgb(88, 70, 139);
+    width: 300px;
+}
+
+.texttop1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(227, 45, 56);
+    width: 300px;
+}
+
+.texttop2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(214, 169, 0);
+    width: 300px;
+    color: black;
+}
+
+.photo:hover img {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    opacity: .7;
+    transition: all .3s ease-in-out;
+
+}
+
+.usualtext {
+    width: 260px;
+    height: 310px;
+    background-color: rgb(245, 245, 246);
+}
+
+
+.paddd {
+    padding-top: 500px;
+}
+
+
+.bord11 {
+    background-color: rgb(88, 70, 139);
+    width: 1443px;
+    height: 480px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px #000;
+    padding: 30px;
+    opacity: 1;
+}
+
+.bord111 {
+    background-color: rgb(227, 45, 56);
+    width: 1443px;
+    height: 480px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px #000;
+    padding: 30px;
+    opacity: 1;
+}
+
+.bord1111 {
+    background-color: rgb(246, 190, 13);
+    width: 1443px;
+    height: 480px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px #000;
+    padding: 30px;
+    opacity: 1;
+    color: black;
+}
+
+.bord11-1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(63, 45, 114);
+    width: 740px;
+}
+
+.bord11-2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(202, 20, 31);
+    width: 740px;
+}
+
+.bord11-3 {
+    text-align: center;
+    color: black;
+    background-color: rgb(189, 144, 0);
+    width: 740px;
+}
+
+.whitebrd {
+    width: 903px;
+    height: 2050px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.whitebrdPrizes {
+    width: 903px;
+    height: 1150px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+
+.whitebrdSantander1 {
+    width: 903px;
+    height: 800px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.whitebrdSantander2 {
+    width: 903px;
+    height: 450px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.podNews {
+    width: 903px;
+    height: 530px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.whitebrdSantander3 {
+    width: 903px;
+    height: 1430px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.whitebrdSantander4 {
+    width: 903px;
+    height: 530px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.Ofstatements {
+    width: 903px;
+    height: 830px;
+    background-color: white;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+
+
+.matchd {
+    text-align: center;
+    align-items: center;
+    width: 900px;
+    height: 25px;
+    background-color: rgb(146, 218, 236);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.data {
+    width: 900px;
+    height: 50px;
+    background-color: rgb(37, 40, 42);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.data1 {
+    float: left;
+    color: rgb(254, 249, 206);
+    padding-left: 70px;
+    padding-top: 13px;
+}
+
+.data1-1 {
+    float: left;
+    color: rgb(146, 218, 236);
+    padding-left: 48px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.data2 {
+    float: left;
+    color: rgb(254, 249, 206);
+    padding-left: 70px;
+    padding-top: 13px;
+}
+
+.data2-1 {
+    float: left;
+    color: rgb(146, 218, 236);
+    padding-left: 48px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.matches {
+    width: 900px;
+    height: 900px;
+    background-color: rgb(37, 65, 80);
+}
+
